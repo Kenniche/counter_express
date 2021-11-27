@@ -10,7 +10,7 @@ var bodyParser = require('body-parser');
 var session = require('express-session');
 
 // use session:
-app.use(session({secret: 'grantssecretencrypter'}));  // string for encryption
+app.use(session({secret: 'yesican' }));  // string for encryption
 // use bodyParser
 app.use(bodyParser.urlencoded({ extended: true }));
 // static content
